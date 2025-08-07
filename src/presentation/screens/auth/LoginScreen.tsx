@@ -10,6 +10,7 @@ interface Props extends StackScreenProps<RootStackParam, 'LoginScreen'> { }
 export const LoginScreen = ({ navigation }: Props) => {
 
     const { height } = useWindowDimensions()
+
     return (
         <Layout style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
 
