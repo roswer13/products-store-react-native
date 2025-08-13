@@ -15,7 +15,7 @@ export class ProductMapper {
             gender: tesloProduct.gender,
             tags: tesloProduct.tags,
             images: tesloProduct.images.map(
-                image => `${API_URL}/files/products/${image}`
+                image => `${API_URL}/files/product/${image}`
             ),
         }
     }
